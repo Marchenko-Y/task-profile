@@ -1,4 +1,4 @@
-# Antonovk frontend BOILERPLATE
+# Antonov.Group frontend BOILERPLATE
 
 ## Install
 ```sh
