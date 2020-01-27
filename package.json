@@ -1,7 +1,7 @@
 {
-  "name": "antonovk-frontend-boilerplate",
+  "name": "antono-group-frontend-boilerplate",
   "version": "0.0.0",
-  "description": "antonovk frontend boilerplate",
+  "description": "antono-group frontend boilerplate",
   "scripts": {
     "start": "npm run hot",
     "hot": "cross-env NODE_ENV=development node_modules/webpack-dev-server/bin/webpack-dev-server.js --open --progress --hot --inline",
