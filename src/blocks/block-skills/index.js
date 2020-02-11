@@ -1,0 +1,1 @@
+import './block-skills.scss';

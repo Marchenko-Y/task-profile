@@ -1,0 +1,55 @@
+.skills {
+  border-bottom: 2px solid #f0f0f0;
+  padding: 36px 50px 38px 21px;
+}
+
+.skills__title {
+  font-size: 18px;
+  color: #010101;
+}
+
+.skills__checkbox-list {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  font-size: 12px;
+  text-align: left;
+  text-transform: uppercase;
+  color: #707070;
+  letter-spacing: 2px;
+  margin-top: 26px;
+}
+
+.skills__checkbox {
+  margin-bottom: 40px;
+  position: relative;
+  padding-left: 27px;
+}
+
+.skills__checkbox_margin-bottom_0 {
+  margin-bottom: 0;
+}
+
+.skills__checkbox input {
+  display: none;
+}
+
+.skills__custom-checkbox {
+  display: inline-block;
+  position: absolute;
+  width: 19px;
+  height: 19px;
+  background-color: #eeeeee;
+  border-radius: 5px;
+  transition: background-color 150ms ease-in;
+  transition: background-image 150ms ease-in;
+  margin-right: 8px;
+  cursor: pointer;
+  left: 0;
+  top: -3px;
+}
+
+.skills__checkbox input:checked + .skills__custom-checkbox {
+  background: url("/images/icon.svg") 50% 50% no-repeat;
+  background-size: 70%;
+  background-color: #0093d7;
+}
