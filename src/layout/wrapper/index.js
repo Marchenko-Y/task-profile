@@ -1,1 +1,1 @@
-import './wrapper.sass';
+import './wrapper.scss';
