@@ -1,0 +1,23 @@
+.js-skill {
+  display: flex;
+  justify-content: space-between;
+  padding: 58px 121px 59px 22px;
+}
+
+.js-skill__meter {
+  width: 254px;
+  height: 134px;
+}
+
+.js-skill__description {
+  font-size: 18px;
+  color: #333333;
+}
+
+.js-skill__counter {
+  color: #0093d7;
+  font-size: 50px;
+  font-weight: 900;
+  margin-top: 26px;
+  letter-spacing: 0.5px;
+}

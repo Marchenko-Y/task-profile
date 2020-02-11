@@ -10,13 +10,11 @@ head
   link(rel='apple-touch-icon' href="${require('images/favicon/apple-touch-icon.png')}" type='image/png')
   link(rel='stylesheet' href='css/vendors.css?' + hash)
   link(rel='stylesheet' href='css/app.css?' + hash)
+  link(rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto:500,900&display=swap&subset=cyrillic' )
+
+  
 body
   .wrapper
-    //- include header/header
-    //- .content
-      main.main
-        block content
     block content
-    include footer/footer
   script(src='js/vendors.js?' + hash)
   script(src='js/app.js?' + hash)
