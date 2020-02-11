@@ -1,0 +1,47 @@
+.profile {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 22px;
+  border-bottom: 2px solid #f0f0f0;
+  text-transform: uppercase;
+  color: #8f8f8e;
+  letter-spacing: 2px;
+}
+
+.profile__avatar {
+  width: 138px;
+  height: 138px;
+}
+
+.profile__list {
+  width: 460px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  position: relative;
+
+  &::after {
+    content: "";
+    position: absolute;
+    background-image: url("/images/item.png");
+    display: block;
+    width: 184px;
+    height: 166px;
+    right: -17px;
+    top: 45px;
+  }
+}
+
+.profile__characteristic {
+  padding-bottom: 8px;
+  border-bottom: 2px solid #333333;
+
+  &:not(:nth-child(1)) {
+    padding-top: 34px;
+  }
+}
+
+.profile__value {
+  color: #010101;
+  margin-left: 5px;
+}

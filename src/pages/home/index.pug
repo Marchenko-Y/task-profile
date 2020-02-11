@@ -1,5 +1,22 @@
 extends /layout/app
 
 block content
-  .container
-    | CONTENT
+  .profile
+   img.profile__avatar(src='../../images/avatar.png' alt='avatar')
+   ul.profile__list
+    li.profile__characteristic
+      | Имя
+      span.profile__value Юлия
+    li.profile__characteristic
+      | Дата рождения
+      span.profile__value 10.01.1997
+    li.profile__characteristic
+      | Город
+      span.profile__value Ставрополь
+    li.profile__characteristic
+      | Контактные данные
+      span.profile__value +7(988)607-61-92
+  .skills
+
+
+
