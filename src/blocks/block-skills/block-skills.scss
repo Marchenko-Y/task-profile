@@ -53,3 +53,31 @@
   background-size: 70%;
   background-color: #0093d7;
 }
+
+@include max-w(585) {
+  .skills {
+    padding: 38px 29px 69px 47px;
+  }
+  .skills__checkbox-list {
+    grid-template-columns: 33% 33% 33%;
+    letter-spacing: 1.5px;
+  }
+}
+
+@include max-w(529) {
+  .skills {
+    padding: 38px 61px 28px 62px;
+  }
+  .skills__checkbox-list {
+    grid-template-columns: 50% 50%;
+  }
+  .skills__checkbox_margin-bottom_0 {
+    margin-bottom: 35px;
+  }
+}
+
+@include max-w(389) {
+  .skills {
+    padding: 38px 32px 28px 32px;
+  }
+}

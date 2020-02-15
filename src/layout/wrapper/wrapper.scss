@@ -12,5 +12,51 @@ body {
   font-size: 12px;
   margin: 0 auto;
   margin-bottom: 100px;
-  background-image: url('/images/bg.png');
+  background-image: url("/images/bg.png");
+}
+
+@include max-w(990) {
+  body {
+    padding-left: 130px;
+    padding-right: 130px;
+  }
+}
+@include max-w(897) {
+  body {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+}
+
+@include max-w(849) {
+  body {
+    padding-left: 70px;
+    padding-right: 70px;
+  }
+}
+
+@include max-w(796) {
+  body {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 21px;
+  }
+}
+
+@include max-w(499) {
+  body {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 21px;
+  }
+}
+@include max-w(357) {
+  body {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+  }
+  .wrapper {
+    margin-bottom: 26px;
+  }
 }

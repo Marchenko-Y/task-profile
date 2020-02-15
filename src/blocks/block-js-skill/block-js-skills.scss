@@ -21,3 +21,58 @@
   margin-top: 26px;
   letter-spacing: 0.5px;
 }
+
+@include max-w(695) {
+  .js-skill {
+    padding: 58px 43px 59px 17px;
+  }
+  .js-skill__meter {
+    width: 234px;
+    height: 114px;
+  }
+  .js-skill__counter {
+    font-size: 48px;
+  }
+}
+
+@include max-w(596) {
+  .js-skill__meter {
+    width: 214px;
+    height: 104px;
+  }
+  .js-skill__counter {
+    font-size: 43px;
+  }
+}
+
+@include max-w(576) {
+  .js-skill {
+    flex-direction: column;
+    align-items: center;
+    padding: 42px 43px 42px 17px;
+  }
+  .js-skill__description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .js-skill__counter {
+    margin-top: 14px;
+  }
+  .js-skill__meter {
+    margin-bottom: 20px;
+  }
+}
+
+@include max-w(373) {
+  .js-skill {
+    padding: 36px;
+  }
+  .js-skill__meter {
+    width: 204px;
+  }
+  .js-skill__meter {
+    width: 194px;
+    height: 94px;
+  }
+}
